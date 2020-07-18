@@ -1,15 +1,11 @@
 # Algorithm DS Challenge
 
-## Challenge Start Date : 18 July 2020
-## Expected End Date : 16 August 2020
+## Challenge Duration : 18 July 2020 - 16 August 2020
 
 I will be daily adding my inteview preparation questions to this repo.
 People can refer to it as a reference for Interview Questions.
 Thank you for visiting!
 
-### Day - 0
-
-Initialized the repo! Will decide the startegy to find questions tomorrow.
 
 ### Day - 1 : Binary Search Tree
 
