@@ -7,7 +7,7 @@ People can refer to it as a reference for Interview Questions.
 Thank you for visiting!
 
 
-### Day - 1 :Tree
+### Day-1 : Tree (Top 10 Geeks for Geeks + Additionals)
 
 #### BST
 
@@ -17,7 +17,7 @@ Thank you for visiting!
 | Deletion      |    O(log n)   |     O(n)    |
 | Search        |    O(log n)   |     O(n)    |
 
-#### Tree (Top 10 Geeks for Geeks + Additionals)
+#### Tree 
 
 | Operation     | Best Case     | Worst Case  |
 | ------------- |:-------------:| -----------:|
