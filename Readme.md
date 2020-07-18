@@ -19,7 +19,7 @@ Initialized the repo! Will decide the startegy to find questions tomorrow.
 | Deletion      |    O(log n)   |     O(n)    |
 | Search        |    O(log n)   |     O(n)    |
 
-1. [Construct BST from given preorder traversal O(n)](../blob/master/DS/BST/preorder_to_bst.cpp)
+1. [Construct BST from given preorder traversal O(n)](../blob/DS/BST/preorder_to_bst.cpp)
 
-2. [Check if a given array can represent Preorder Traversal of Binary Search Tree](../blob/master/DS/BST/verify_preorder_for_bst.cpp)
+2. [Check if a given array can represent Preorder Traversal of Binary Search Tree](../blob/DS/BST/verify_preorder_for_bst.cpp)
 
