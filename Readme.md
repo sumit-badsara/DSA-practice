@@ -7,23 +7,7 @@ People can refer to it as a reference for Interview Questions.
 Thank you for visiting!
 
 
-### Day-1 : Tree (Top 10 Geeks for Geeks + Additionals)
-
-#### BST
-
-| Operation     | Best Case     | Worst Case  |
-| ------------- |:-------------:| -----------:|
-| Insertion     |    O(log n)   |     O(n)    |
-| Deletion      |    O(log n)   |     O(n)    |
-| Search        |    O(log n)   |     O(n)    |
-
-#### Tree 
-
-| Operation     | Best Case     | Worst Case  |
-| ------------- |:-------------:| -----------:|
-| Insertion     |    O(n)       |     O(n)    |
-| Deletion      |    O(n)       |     O(n)    |
-| Search        |    O(n)       |     O(n)    |
+### Day-1
 
 1. [BST: Construct BST from given preorder traversal O(n)](../blob/DS/BST/preorder_to_bst.cpp)
 
@@ -37,5 +21,17 @@ Thank you for visiting!
 
 6. [BTree: Verify if the given tree is full binary tree](../blob/DS/Binary%20Tree/full_binary_tree.cpp)
 
-7. [BTree: Bottom view of binary tree](../blob/DS/Binary%20Tree/bottom_view.cpp)
+7. [BTree: Bottom and Top view of binary tree](../blob/DS/Binary%20Tree/bottom_top_view.cpp)
 
+### Day-2
+
+1. [BTree: Remove nodes on root to leaf paths of length < K](../blob/DS/Binary%20Tree/remove_path_less_than_k.cpp)
+
+2. [BTree: Check if a binary tree is subtree of another binary tree](../blob/DS/Binary%20Tree/subtree_or_not.cpp)
+
+3. [String: KMP Search](../blob/Algorithms/String/KMP_Pattern_Detection.cpp)
+
+
+### TODO
+
+1. You are on an infinite graph and starting from (1, 1), you can move either (x+y, y) or (x, x+y) and you need to find out whether you can reach the given point or not.

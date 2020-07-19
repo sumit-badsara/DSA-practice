@@ -53,7 +53,33 @@ class BTree{
                 cout<<bottomView[i].first<<" ";
             cout<<"\n";
         }
-        
+
+        void TopViewUtil(node* root, int depth, int width, int &_min, int &_max, map<int, pair<int,int>> &bottomView)
+        {
+            if(root == NULL)
+                return;
+            
+            if(bottomView[width].second == 0 || depth<=bottomView[width].second)
+                bottomView[width] = {root->val,depth};
+            
+            _min = min(width, _min);
+            _max = max(width, _max);
+
+            this->TopViewUtil(root->left, depth+1, width-1, _min, _max, bottomView);
+            this->TopViewUtil(root->right, depth+1, width+1, _min, _max, bottomView);
+        }
+
+        void TopView()
+        {
+            map <int,pair<int,int>> topView;
+            int min=0, max=0;
+
+            this->TopViewUtil(this->root, 1, 0, min, max, topView);   
+
+            for(int i=min;i<=max;i++)
+                cout<<topView[i].first<<" ";
+            cout<<"\n";
+        }
 };
 
 int main()
@@ -86,7 +112,12 @@ int main()
     btree->getRoot()->left->right->left = btree->newNode(10);
     btree->getRoot()->left->right->right = btree->newNode(14);
     btree->getRoot()->right->right = btree->newNode(25);
+    
+    cout<<"Bottom View Tree-1:\t";
     btree->bottomView();
+    
+    cout<<"Top View Tree-1:\t";
+    btree->TopView();
 
     /*
         Tree-2
@@ -104,7 +135,12 @@ int main()
     */
 
     btree->getRoot()->right->left = btree->newNode(4);
+    
+    cout<<"\nBottom View Tree-2:\t";
     btree->bottomView();
     
+    cout<<"Top View Tree-2:\t";
+    btree->TopView();
+
     return 0;
 }
