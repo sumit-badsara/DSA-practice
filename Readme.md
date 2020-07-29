@@ -1,8 +1,6 @@
-# Algorithm DS Challenge
+# DSA Practice
 
-## Challenge Start Date : 18 July 2020
-
-I will be daily adding my inteview preparation questions to this repo.
+I will be adding my inteview preparation questions to this repo.
 People can refer to it as a reference for Interview Questions.
 Thank you for visiting!
 
